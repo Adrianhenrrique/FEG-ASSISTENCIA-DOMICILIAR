@@ -1,4 +1,5 @@
 import logo from './favicon.ico';
+import logoWhatsapp from './Img/whatsapp.png'
 import './App.css';
 import Card from './components/Card.js'
 import img from './Img/image01.jpg';
@@ -43,6 +44,13 @@ function App() {
       <section className='Extras'>
 
       </section>
+
+
+      <a href='https://wa.me/5511914813191' target="_blank">
+        <div class="whatsapp">
+          <img src={logoWhatsapp} alt="logo do whatsapp"/>
+        </div>
+      </a>
     </div>
   );
 }
