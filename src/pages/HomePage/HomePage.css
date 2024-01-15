@@ -137,6 +137,51 @@
   margin-right: 10px;
 }
 
+.HomePageFooter {
+  background-color: #000;
+  color: rgb(150, 150, 150);
+  padding-top: 30px;
+}
+
+.HomePageFooter > .content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.HomePageFooter p {
+  font-size: 15px;
+}
+
+.HomePageFooter > .content > .contate > h2, .HomePageFooter > .content > .socialMedia > h2 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.HomePageFooter > .content > .contate > p > a {
+  color: aqua;
+}
+
+.HomePageFooter > .content > .socialMedia {
+  margin-left: 55px;
+}
+
+.HomePageFooter > .content > .socialMedia > div > .social > img {
+  height: 30px;
+  width: 30px;
+}
+
+.HomePageFooter > .reserved {
+  padding: 25px 0 35px 0;
+  margin: 0;
+}
+
+.HomePageFooter > .reserved > span {
+  color: red;
+  font-size: 19px;
+  font-weight: 700;
+}
+
 .whatsapp {
   display: flex;
   justify-content: center;

@@ -1,6 +1,8 @@
 import logo from '../../favicon.ico';
 import logoWhatsapp from '../../Img/whatsapp.png'
 import logoWhatsapp2 from '../../Img/whatsapp-bnt.png'
+import logoInstagram from '../../Img/instagram.png'
+
 import './HomePage.css';
 import Card from '../../components/Card'
 import img from '../../Img/image01.jpg';
@@ -67,15 +69,18 @@ function HomePage() {
         <div className='content'>
           <div className='contate'>
             <h2>Atendimento 24h:</h2>
-            <p><a href='tel:11914813191'>(11) 91481-3191</a> SEG a SAB 07:00 – 00:00</p>
-            <p>dom. Por compromisso</p>
+            <p><a href='tel:11914813191'>(11) 91481-3191</a> SEG a SAB 07:00 – 00:00 <br/>dom. Por compromisso</p>
           </div>
           <div className='socialMedia'>
-            <a className='social'>
-              <img />
-            </a>
+            <h2>Redes social</h2>
+            <div>
+              <a className='social'>
+                <img src={logoInstagram} />
+              </a>
+            </div>
           </div>
         </div>
+        <p className='reserved'>F&G ASSISTÊNCIA DOMICILIAR – Todos os direitos reservados.<br/>CNPJ: 00.000.000-00ㅤㅤㅤㅤㅤCopyright © 2024<br/><br/>Feito com <span>&hearts;</span></p>
       </footer>
 
       <a className='link' href='https://wa.me/5511914813191' target="_blank">
