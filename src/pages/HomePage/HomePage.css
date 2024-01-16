@@ -211,6 +211,10 @@
   filter: invert(1);
 }
 
+.HomePageFooter > .reserved > .editorName {
+  color: #000;
+}
+
 .whatsapp > img:hover {
   box-shadow: none;
 }

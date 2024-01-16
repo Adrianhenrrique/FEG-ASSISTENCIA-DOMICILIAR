@@ -74,13 +74,13 @@ function HomePage() {
           <div className='socialMedia'>
             <h2>Redes social</h2>
             <div>
-              <a className='social'>
+              <a className='social' href='https://www.instagram.com/fg.homecare?igsh=MTVsOXlra3JuZGlyMQ==' target="_blank">
                 <img src={logoInstagram} />
               </a>
             </div>
           </div>
         </div>
-        <p className='reserved'>F&G ASSISTÊNCIA DOMICILIAR – Todos os direitos reservados.<br/>CNPJ: 00.000.000-00ㅤㅤㅤㅤㅤCopyright © 2024<br/><br/>Feito com <span>&hearts;</span></p>
+        <p className='reserved'>F&G ASSISTÊNCIA DOMICILIAR – Todos os direitos reservados.<br/>CNPJ: 53.504.231/0001-07ㅤㅤㅤㅤㅤCopyright © 2024<br/><br/>Feito com <span>&hearts;</span><br/><span className='editorName'>Feitor por Adrian Henrique</span> </p>
       </footer>
 
       <a className='link' href='https://wa.me/5511914813191' target="_blank">
