@@ -69,7 +69,12 @@ function HomePage() {
         <div className='content'>
           <div className='contate'>
             <h2>Atendimento 24h:</h2>
-            <p><a href='tel:11914813191'>(11) 91481-3191</a><br/>Seg a Sab 07:00 – 00:00 <br/>domingo Por compromisso</p>
+            <p>
+              <a href='tel:11914813191'>(11) 91481-3191</a>
+              <br/><a href='tel:1130906043'>(11) 3090-6043</a>
+              <br/>Seg a Sab 07:00 – 00:00 
+              <br/>domingo Por compromisso
+            </p>
           </div>
           <div className='socialMedia'>
             <h2>Redes social</h2>
