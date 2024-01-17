@@ -9,6 +9,7 @@ import img from '../../Img/image01.jpg';
 import img2 from '../../Img/escritorio.webp';
 import img3 from '../../Img/feg-banner.webp';
 import { useNavigate } from "react-router-dom";
+import NavBar from '../../components/NavBar';
 
 function HomePage() {
   const title1 = 'Equipe Multidisciplinar'
@@ -34,7 +35,7 @@ function HomePage() {
           <img src={logo} className="logo"/>
           <h1>F&G ASSISTÊNCIA DOMICILIAR</h1>
         </div>
-        <div></div>
+        <NavBar />
       </header>
       <section className='Banner'>
       </section>

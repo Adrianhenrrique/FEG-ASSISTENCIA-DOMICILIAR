@@ -1,0 +1,22 @@
+.Navbar > .ContentBar {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.Navbar > .ContentBar > .ItenBar {
+    font-size: 18px;
+    color: #323232;
+    font-weight: 700;
+}
+
+
+
+
+/* <nav className='Navbar'>
+                <ul className='ContentBar'>
+                    <li className='ItenBar'>Home</li>
+                    <li className='ItenBar'>Serviços</li>
+                    <li className='ItenBar'>Contato</li>
+                </ul>
+            </nav> */
