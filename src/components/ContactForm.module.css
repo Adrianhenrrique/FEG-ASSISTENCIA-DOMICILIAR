@@ -72,3 +72,10 @@ textarea {
 .button:hover{
     transform: scale(1.05);
 }
+@media (max-width: 600px) {
+    .form {
+        width: 90%;
+        margin: 0 15px;
+    }
+}
+    
