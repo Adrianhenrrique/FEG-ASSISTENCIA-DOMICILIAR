@@ -4,7 +4,7 @@ function servicesPage() {
 
     return (
         <>
-            <h1>servicesPage</h1>
+            <h1>Pagina de serviços</h1>
         </>
     )
 }

@@ -1,15 +1,10 @@
-import logo from '../../favicon.ico';
-import logoWhatsapp from '../../Img/whatsapp.png'
 import logoWhatsapp2 from '../../Img/whatsapp-bnt.png'
-import logoInstagram from '../../Img/instagram.png'
 
 import './HomePage.css';
 import Card from '../../components/Card'
 import img from '../../Img/image01.jpg';
 import img2 from '../../Img/escritorio.webp';
 import img3 from '../../Img/feg-banner.webp';
-import { useNavigate } from "react-router-dom";
-import NavBar from '../../components/NavBar';
 
 function HomePage() {
   const title1 = 'Equipe Multidisciplinar'
@@ -22,21 +17,10 @@ function HomePage() {
   const descript3 = ' A F&G Home Care é mais do que uma prestadora de serviços de saúde domiciliar; somos uma extensão do cuidado familiar, oferecendo assistência humanizada e personalizada no conforto do lar. Com uma equipe multidisciplinar altamente capacitada, dedicamo-nos a proporcionar cuidados clínicos excepcionais, reabilitação e suporte emocional, priorizando o bem-estar integral de cada paciente. Na F&G, nosso compromisso vai além da saúde física, abraçando a missão de enriquecer vidas e promover a independência, permitindo que nossos pacientes vivam plenamente em seus ambientes familiares. Confiabilidade, compaixão e excelência definem a essência da F&G Home Care, onde o seu bem-estar é a nossa prioridade. '
 
   const descrpit245 = ' Explore a excelência em cuidados domiciliares agendando uma reunião conosco, descubra como a qualidade e a dedicação da nossa equipe podem fazer a diferença no cuidado. Conforto e saúde são a nossa prioridade. ';
-  
-  const navigate = useNavigate();
-  const goToServicesPages = () => {
-      navigate('/services')
-  };
 
   return (
     <div className="App">
-      <header className="App-header">
-        <div>
-          <img src={logo} className="logo"/>
-          <h1>F&G ASSISTÊNCIA DOMICILIAR</h1>
-        </div>
-        <NavBar />
-      </header>
+      
       <section className='Banner'>
       </section>
       <section className='scop'>
@@ -66,34 +50,7 @@ function HomePage() {
         </a>
       </section>
 
-      <footer className='HomePageFooter'>
-        <div className='content'>
-          <div className='contate'>
-            <h2>Atendimento 24h:</h2>
-            <p>
-              <a href='tel:11914813191'>(11) 91481-3191</a>
-              <br/><a href='tel:1130906043'>(11) 3090-6043</a>
-              <br/>Seg a Sab 07:00 – 00:00 
-              <br/>domingo Por compromisso
-            </p>
-          </div>
-          <div className='socialMedia'>
-            <h2>Redes social</h2>
-            <div>
-              <a className='social' href='https://www.instagram.com/fg.homecare?igsh=MTVsOXlra3JuZGlyMQ==' target="_blank">
-                <img src={logoInstagram} />
-              </a>
-            </div>
-          </div>
-        </div>
-        <p className='reserved'>F&G ASSISTÊNCIA DOMICILIAR – Todos os direitos reservados.<br/>CNPJ: 53.504.231/0001-07ㅤㅤㅤㅤㅤCopyright © 2024<br/><br/>Feito com <span>&hearts;</span><br/><span className='editorName'>Feitor por Adrian Henrique</span> </p>
-      </footer>
-
-      <a className='link' href='https://wa.me/5511914813191' target="_blank">
-        <div className="whatsapp">
-          <img src={logoWhatsapp} alt="logo do whatsapp"/>
-        </div>
-      </a>
+      
     </div>
   );
 }
