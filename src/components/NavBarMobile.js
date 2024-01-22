@@ -14,10 +14,10 @@ function NavBarMobile() {const navigate = useNavigate();
                 navigate('./')
             break;
             case 2:
-                navigate('/services')
+                navigate('/contato')
             break;
             case 3:
-                navigate('/contato')
+                navigate('/services')
             break;
         }
         

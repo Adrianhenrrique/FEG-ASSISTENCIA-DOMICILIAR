@@ -11,10 +11,10 @@ function NavBar ({}) {
                 navigate('./')
             break;
             case 2:
-                navigate('/services')
+               navigate('/contato')
             break;
             case 3:
-                navigate('/contato')
+                navigate('/services')
             break;
         }
         
