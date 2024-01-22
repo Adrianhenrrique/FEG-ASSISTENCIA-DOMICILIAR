@@ -1,0 +1,12 @@
+.content.inverted {
+    visibility: hidden;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+    margin: 10px;
+}
