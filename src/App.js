@@ -9,6 +9,7 @@ import logoInstagram from './Img/instagram.png'
 import logoWhatsapp from './Img/whatsapp.png'
 import Footer from './components/footer/Footer';
 import FloatWhatsapp from './components/Float/whatsapp/FloatWhatsapp';
+import sitemap from './sitemap.xml'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/' element={<HomePage />}/>
         <Route path='/services' element={<ServicesPage />} />
         <Route path='/contato' element={<ContatoPage />} />
+        <Route path='/sitemap.xml' element={<sitemap />} />
       </Routes>
       
       <Footer logo={logoInstagram}/>
