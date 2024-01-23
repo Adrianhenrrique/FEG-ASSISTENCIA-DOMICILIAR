@@ -17,7 +17,7 @@ function ContactForm() {
   
   return (
     <>
-    <form className={style.form} id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/" method="post" onSubmit={handleSubmit}>
+    <form className={style.form} id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xeqyonba" method="post" onSubmit={handleSubmit}>
       <h1>Receba o contato de um de nossos assistente em até 24 horas</h1>
       <fieldset className={style.formOut} id="fs-frm-inputs">
         <label className={style.title} for="full-name">Seu Nome: </label>
