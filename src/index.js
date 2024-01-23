@@ -7,7 +7,7 @@ import { inject } from '@vercel/analytics';
 import { SpeedInsights } from "@vercel/speed-insights/next"
  
 inject();
-injectSpeedInsights();
+SpeedInsights();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
