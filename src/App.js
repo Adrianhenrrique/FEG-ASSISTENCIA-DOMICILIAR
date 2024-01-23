@@ -9,7 +9,7 @@ import logoInstagram from './Img/instagram.png'
 import logoWhatsapp from './Img/whatsapp.png'
 import Footer from './components/footer/Footer';
 import FloatWhatsapp from './components/Float/whatsapp/FloatWhatsapp';
-import sitemap from './sitemap.xml'
+import sitemap from './sitemap'
 import robots from './robots.txt'
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
         <Route path='/services' element={<ServicesPage />} />
         <Route path='/contato' element={<ContatoPage />} />
         <Route path='/sitemap.xml' element={<sitemap />} />
+        <Route path='/sitemap' element={<sitemap />} />
         <Route path='/robots.txt' element={<robots />} />
       </Routes>
       
