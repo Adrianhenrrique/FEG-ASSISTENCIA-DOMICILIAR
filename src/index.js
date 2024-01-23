@@ -4,8 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { inject } from '@vercel/analytics';
+import { SpeedInsights } from "@vercel/speed-insights/next"
  
 inject();
+injectSpeedInsights();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
