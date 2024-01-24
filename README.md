@@ -1,9 +1,9 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://imgur.com/rVfhZP0" alt="Project logo"></a>
+ <img width=200px height=200px src="https://i.imgur.com/rVfhZP0.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">home-care</h3>
+<h3 align="center">Home Care</h3>
 
 <div align="center">
 
