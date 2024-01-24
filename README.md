@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Welcome to FG Home_care, a Home Care service dedicated to providing high-quality care in the comfort of your own home. We understand that each individual has unique needs and we strive to provide personalized care that promotes health and well-being. Our team of highly qualified healthcare professionals is committed to ensuring you or your loved one receives the best care possible. We offer a variety of services, including medical care, physical therapy, nursing support and more, all designed to help our patients live independently and with dignity. Join us at FG Home_care and discover the difference quality care can make.
     <br> 
 </p>
 
@@ -34,7 +34,9 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+The main objective of our Home Care website is to provide high-quality healthcare in the comfort and safety of patients' homes. Our project is dedicated to helping individuals who are recovering from health problems, managing chronic conditions, or simply need extra assistance as they age. Through our website, we seek to connect patients with qualified healthcare professionals who can provide a variety of home care services.
+
+Additionally, our website serves as an informational platform, offering valuable resources and information for patients, families and caregivers. We are committed to promoting patients' independence and dignity while ensuring they receive the level of support they need. Through our work, we hope to transform the home care industry by making it more accessible, efficient and patient-centered.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
