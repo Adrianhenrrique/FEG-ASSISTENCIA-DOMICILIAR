@@ -21,7 +21,7 @@ function NavBar ({}) {
     };
 
     const [activeItem, setActiveItem] = useState(null);
-    const items = ['Home', 'Contato'];
+    const items = ['Home', 'Contato', 'Serviços'];
 
     const handleClick = (index) => {
         setActiveItem(index);

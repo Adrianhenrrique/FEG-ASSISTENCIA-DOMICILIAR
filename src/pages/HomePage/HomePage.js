@@ -22,17 +22,16 @@ function HomePage() {
     <div className="App">
       
       <section className='Banner'>
-      </section>
-      <section className='scop'>
         <ul>
           <li>• Profissionais habilitados e de referência </li>
           <li>• Excelência no cuidado humanizado</li>
           <li>• Atendimento em todo o Brasil </li>
           <li>• Atendimento 24h</li>
+
+          <a href='https://wa.me/5511914813191'target="_blank">
+            <button className='bnt' style={{width: '250px'}}>OBTER ORÇAMENTO</button>
+          </a>
         </ul>
-        <a href='https://wa.me/5511914813191'target="_blank">
-          <button className='bnt'>OBTER ORÇAMENTO</button>
-        </a>
       </section>
       <section className='Infos'>
         <Card imagen={img} title={title1} descript={descript1}/>

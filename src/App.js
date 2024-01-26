@@ -9,13 +9,12 @@ import logoInstagram from './Img/instagram.png'
 import logoWhatsapp from './Img/whatsapp.png'
 import Footer from './components/footer/Footer';
 import FloatWhatsapp from './components/Float/whatsapp/FloatWhatsapp';
-import sitemap from './sitemap'
-import robots from './robots.txt'
 
 function App() {
   return (
     <BrowserRouter>
-      <Header logo={logo}/>
+    <h1>Site fora do ar</h1>
+      {/* <Header logo={logo}/>
 
       <Routes>
         <Route path='/' element={<HomePage />}/>
@@ -27,7 +26,7 @@ function App() {
       </Routes>
       
       <Footer logo={logoInstagram}/>
-      <FloatWhatsapp logo={logoWhatsapp}/>
+      <FloatWhatsapp logo={logoWhatsapp}/> */}
     </BrowserRouter>
   );
 }

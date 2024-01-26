@@ -24,7 +24,7 @@ function NavBarMobile() {const navigate = useNavigate();
     };
 
     const [activeItem, setActiveItem] = useState(null);
-    const items = ['Home', 'Contato'];
+    const items = ['Home', 'Contato', 'Serviços'];
 
     const handleClick = (index) => {
         setActiveItem(index);
@@ -65,8 +65,7 @@ function NavBarMobile() {const navigate = useNavigate();
                                     color: activeItem === index ?'black' : '#686868',
                                     listStyle: 'none',
                                     fontWeight: activeItem === index ? 700 : 400,
-                                    transition: 'transform 0.2s ease-in-out',
-                                    cursor: 'pointer'
+                                    transition: 'transform 0.2s ease-in-out'
                                 }}
                                 onClick={() => handleClick(index)}
                                 >
