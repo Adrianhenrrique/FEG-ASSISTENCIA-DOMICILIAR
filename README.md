@@ -1,9 +1,16 @@
 <p align="center">
   <a href="" rel="noopener">
+<<<<<<< HEAD
  <img width=200px height=200px src="https://imgur.com/rVfhZP0" alt="Project logo"></a>
 </p>
 
 <h3 align="center">home-care</h3>
+=======
+ <img width=200px height=200px src="https://i.imgur.com/rVfhZP0.jpg" alt="Project logo"></a>
+</p>
+
+<h3 align="center">Home Care</h3>
+>>>>>>> ba4d22936fa4a55ef1206c1a3a7c36ba283dd276
 
 <div align="center">
 
@@ -16,7 +23,11 @@
 
 ---
 
+<<<<<<< HEAD
 <p align="center"> Few lines describing your project.
+=======
+<p align="center"> Welcome to FG Home_care, a Home Care service dedicated to providing high-quality care in the comfort of your own home. We understand that each individual has unique needs and we strive to provide personalized care that promotes health and well-being. Our team of highly qualified healthcare professionals is committed to ensuring you or your loved one receives the best care possible. We offer a variety of services, including medical care, physical therapy, nursing support and more, all designed to help our patients live independently and with dignity. Join us at FG Home_care and discover the difference quality care can make.
+>>>>>>> ba4d22936fa4a55ef1206c1a3a7c36ba283dd276
     <br> 
 </p>
 
@@ -34,8 +45,13 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+The main objective of our Home Care website is to provide high-quality healthcare in the comfort and safety of patients' homes. Our project is dedicated to helping individuals who are recovering from health problems, managing chronic conditions, or simply need extra assistance as they age. Through our website, we seek to connect patients with qualified healthcare professionals who can provide a variety of home care services.
 
+<<<<<<< HEAD
+=======
+Additionally, our website serves as an informational platform, offering valuable resources and information for patients, families and caregivers. We are committed to promoting patients' independence and dignity while ensuring they receive the level of support they need. Through our work, we hope to transform the home care industry by making it more accessible, efficient and patient-centered.
+
+>>>>>>> ba4d22936fa4a55ef1206c1a3a7c36ba283dd276
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
@@ -45,7 +61,12 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them.
 
 ```
+<<<<<<< HEAD
 Give exampls
+=======
+Node.js v20.10.0
+React v18.2.0
+>>>>>>> ba4d22936fa4a55ef1206c1a3a7c36ba283dd276
 ```
 
 ### Installing
